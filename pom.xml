@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.devmribeiro</groupId>
+  <artifactId>dbf-to-csv-converter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Converter</name>
+  
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.jamel.dbf/dbf-reader -->
+		<dependency>
+		    <groupId>org.jamel.dbf</groupId>
+		    <artifactId>dbf-reader</artifactId>
+		    <version>0.3.0</version>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.10.0</version>
+        </dependency>
+        <dependency>
+		    <groupId>com.github.devMRibeiro</groupId>
+		    <artifactId>zen-log</artifactId>
+		    <version>v2.3.2</version>
+		</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+	    	<id>jitpack.io</id>
+	    	<url>https://jitpack.io</url>
+	  	</repository>
+	</repositories>
+</project>
